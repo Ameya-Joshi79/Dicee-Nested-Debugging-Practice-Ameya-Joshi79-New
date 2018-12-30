@@ -3,4 +3,7 @@
     <string name="app_name">DiceeNew</string>
     <string name="button_text">辊</string>
     <string name="roll_button_content_description">这个按钮滚动骰子</string>
+    <string name="casino_logo">娱乐场标志</string>
+    <string name="top_dice">顶部骰子</string>
+    <string name="bottom_dice">底部骰子</string>
 </resources>

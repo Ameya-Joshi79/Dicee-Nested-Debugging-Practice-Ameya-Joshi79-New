@@ -3,4 +3,7 @@
     <string name="app_name">DiceeNew</string>
     <string name="roll_button_content_description">Ce bouton roule les dés</string>
     <string name="button_text">rouler</string>
+    <string name="casino_logo">Logo de casino</string>
+    <string name="top_dice">Top dés</string>
+    <string name="bottom_dice">Bottom Dice Dés inférieurs</string>
 </resources>

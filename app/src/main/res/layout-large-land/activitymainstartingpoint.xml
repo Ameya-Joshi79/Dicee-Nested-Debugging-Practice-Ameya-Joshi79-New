@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/image_logo"
-        android:layout_width="0"
-        android:layout_height="0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
 
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -29,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guidelineHorizontalTop"
 
-        app:srcCompat="@drawable/dicee_logo" />
+        app:srcCompat="@drawable/dicee_logo"
+        android:contentDescription="@string/casino_logo" />
 
 
     <ImageView
@@ -46,7 +47,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:srcCompat="@drawable/dice2" />
+        app:srcCompat="@drawable/dice2"
+        android:contentDescription="@string/top_dice" />
 
     <ImageView
         android:id="@+id/image_rightDice"
@@ -62,7 +64,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_leftDice"
 
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/dice1"
+        android:contentDescription="@string/bottom_dice" />
 
 
     <Button

@@ -3,4 +3,7 @@
     <string name="app_name">DiceeNew</string>
     <string name="roll_button_content_description">このボタンはサイコロを振る</string>
     <string name="button_text">振る</string>
+    <string name="casino_logo">カジノロゴ</string>
+    <string name="top_dice">トップダイス</string>
+    <string name="bottom_dice">ボトムダイス</string>
 </resources>

@@ -2,4 +2,7 @@
     <string name="app_name">DiceeNew</string>
     <string name="button_text">Roll</string>
     <string name="roll_button_content_description">This Button Rolls the Dice</string>
+    <string name="casino_logo">Casino Logo</string>
+    <string name="top_dice">Top Dice</string>
+    <string name="bottom_dice">Bottom Dice</string>
 </resources>
