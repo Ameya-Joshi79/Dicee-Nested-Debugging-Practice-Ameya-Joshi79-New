@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiceeNew</string>
+    <string name="button_text">辊</string>
+    <string name="roll_button_content_description">这个按钮滚动骰子</string>
+</resources>

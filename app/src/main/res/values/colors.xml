@@ -7,4 +7,5 @@
     <color name="colorPrimaryDarkNew">#006600</color>
 
     <color name="roll_button_new_color">#9c27b0</color>
+    <color name="roll_button_test_color">#303F9F</color>
 </resources>
