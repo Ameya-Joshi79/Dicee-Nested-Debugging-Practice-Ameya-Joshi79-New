@@ -14,14 +14,12 @@
     <ImageView
         android:id="@+id/image_logo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="0dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/image_leftDice"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontalBottom"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontalTop"
         app:srcCompat="@drawable/dicee_logo" />
 
 
@@ -37,6 +35,7 @@
         app:layout_constraintRight_toLeftOf="@+id/image_rightDice"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
         app:srcCompat="@drawable/dice2" />
 
     <ImageView
@@ -51,7 +50,7 @@
         app:layout_constraintLeft_toRightOf="@+id/image_leftDice"
         app:layout_constraintStart_toEndOf="@+id/image_leftDice"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501"
+        app:layout_constraintVertical_bias="0.646"
         app:srcCompat="@drawable/dice1" />
 
 
@@ -75,14 +74,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.90" />
+        app:layout_constraintGuide_begin="479dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.10" />
+        app:layout_constraintGuide_end="481dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineHorizontalTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="7dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineHorizontalBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="138dp" />
 
 
 </android.support.constraint.ConstraintLayout>

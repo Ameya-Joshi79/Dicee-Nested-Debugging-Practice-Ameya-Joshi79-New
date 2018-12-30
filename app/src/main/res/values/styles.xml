@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="roll_button_style" parent="Widget.AppCompat.Button.Colored">
+
+        <item name="android:colorButtonNormal">@color/roll_button_new_color</item>
+
+
+    </style>
+
 </resources>
